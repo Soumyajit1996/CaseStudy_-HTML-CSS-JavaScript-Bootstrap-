@@ -1,0 +1,17 @@
+body {
+  background-image: url(./Image/jaguar_i_type_3_jaguar_vip_car_jaguar_i_pace_etrophy_4k.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+#ui {
+  background-color: #333;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+#ui label,
+h1 {
+  color: beige;
+}

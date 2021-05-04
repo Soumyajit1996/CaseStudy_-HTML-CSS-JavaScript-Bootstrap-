@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  background-image: url(./Image/jaguar_i_type_3_jaguar_vip_car_jaguar_i_pace_etrophy_4k.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.searchBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchText {
+  width: 25rem;
+  padding: 2rem;
+  border-radius: 5rem;
+  border: none;
+  outline: none;
+  transition: all 0.2s linear;
+}
+.searchText:focus {
+  outline: none;
+}
+
+.searchBtn {
+  width: 5rem;
+  height: 5rem;
+  background-color: royalblue;
+  color: seashell;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  right: 1rem;
+  border-radius: 50%;
+}
+.searchBox:hover > .searchText {
+  width: 40rem;
+  padding: 2rem;
+  box-shadow: 0 2rem 2rem -1.5rem rgba(0, 0, 0, 0.5);
+}
+.searchBox:hover > .searchBtn {
+  background: #fff;
+  background-color: red;
+}
